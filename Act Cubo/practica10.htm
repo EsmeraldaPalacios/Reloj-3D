@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Cube Clock</title>
+    <link rel="stylesheet" href="css/estilosc.css">
+</head>
+<body>
+    <div class="container" onmousemove="rotateCube(event)">
+        <div class="cube" id="cube">
+            <div class="face" id="hours" onclick="toggleHour()">12</div>
+            <div class="face" id="minutes" onclick="toggleMinute()">00</div>
+            <div class="face" id="seconds" onclick="toggleSecond()">00</div>
+        </div>
+    </div>
+    <script src="js/cubos.js"></script>
+</body>
+</html>
